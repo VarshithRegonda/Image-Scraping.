@@ -1,0 +1,25 @@
+{
+  "name": "Image-Scraping",
+  "version": "1.0.0",
+  "description": "scraps the mata data of image using aws",
+  "main": "server.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "varshith",
+  "email": "varshith4869@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^3.2.0",
+    "await": "^0.2.6",
+    "aws-sdk": "^2.792.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
